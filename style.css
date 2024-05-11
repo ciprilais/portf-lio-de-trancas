@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1477e1; /* Azul médio */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+section {
+  padding: 50px;
+}
+
+.white-background {
+  background-color: #fff;
+  color: #000;
+}
+
+.blue-background {
+  background-color: #1477e1; /* Azul médio */
+  color: #fff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.gallery img {
+  max-width: 100%;
+}
